@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="stylesheet" href=".//css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+  <title>Bem vindo ao Fintech</title>
+</head>
+
+<body>
+    <div class="container-fluid barra barra-inicio ">
+      <div class="row p-2">
+        <div class="col">
+           <a href="/perfil.html"><button class="btn-icones"><img src=".//images/avatar.svg" alt="avatar" class="avatar m-1"></button></a>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-12 text-center">
+           <span class="saldo-dis">Saldo disponivel</span> <br> <span class="valor-total">R$ 0,00</span>
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col-6 col-sm-6">
+          <img src=".//images/receita.svg" class="avatar" alt="Receitas">
+          <span class="">Receitas</span> <span class="valor-receita col-sm-3">R$0,00</span> 
+        </div>
+        <div class="col-6 col-sm-6 text-end">
+          <img src=".//images/despesas.svg" class="avatar img-fluid" alt="Despesas">
+          <span class="">Despesas</span> <span class="valor-despesa col-sm-3 text-center">R$0,00</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-4">
+      <div>
+        <p><span class="span-seta">></span> Recentes</p>
+      </div>
+      <div class="barra barra-style row py-2 mx-1">
+        <div class="row">
+
+                <div class="col-1 mx-3 text-center">
+                    <a href="#"><img src=".//images/dicas.svg" class="" alt="Dicas"></a> <br>
+                    <span class="nomes-destaques">Dicas</span>
+                </div>
+
+                <div class="col-1 mx-3 text-center">
+                  <a href="#"><img src=".//images/planos.svg" class="" alt="Planos"></a> <br>
+                  <span class="nomes-destaques">Planos</span>
+                </div>
+
+                <div class="col-1 mx-3 text-center">
+                  <a href="#"><img src=".//images/acoes.svg" class="" alt="Ações"></a> <br>
+                  <span class="nomes-destaques">Ações</span>
+                </div>
+            
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-4 ">
+      <div>
+        <p><span class="span-seta">></span> Cartão de crédito</p>
+      </div>
+      <div class="barra barra-style p-3 btn-hover">
+        <div class="row text-center">
+            <div class="col">
+              <img src=".//images/cartoes.svg" class="" alt="Cartões">
+              <p class="text-center my-2">Você ainda não tem nenhum cartão de credito cadastrado</p>
+              <a href="/cartão.html" class="btn btn-cartao text-center">ADICIONAR NOVO CARTÃO</a>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Aqui inicia cards -->
+    
+    <div id="dicas" class="container">
+      <div class="row">
+        <p><span class="span-seta">></span> Dicas</p>
+
+        <div class="col-6 mb-4 col-sm-6 col-md-4 col-lg-3">
+          <div class="card barra caixa-card mb-1">
+            <img src=".//images/financas1.jpg" class="card-img-top caixa-card" alt="...">
+            <div class="card-body">
+              <h5 class="card-title titulo-card">Sobrar no mês</h5>
+              <p class="card-text">Quer saber onde economizar, para sobrar um troco no final do mês?
+              </p>
+              <a href="/dicas-cards.html" class="btn btn-tag">SAIBA MAIS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 mb-4 col-sm-6 col-md-4 col-lg-3">
+          <div class="card barra caixa-card mb-1">
+            <img src=".//images/financas2.jpg" class="card-img-top caixa-card" alt="...">
+            <div class="card-body">
+              <h5 class="card-title titulo-card">Onde aplicar </h5>
+              <p class="card-text">Melhor lugar, e onde aplicar o seu dinheiro de sobra rapida e segura.
+              </p>
+              <a href="/dicas-cards.html" class="btn btn-tag">SAIBA MAIS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 mb-4 col-sm-6 col-md-4 col-lg-3">
+          <div class="card barra caixa-card mb-1">
+            <img src=".//images/financas3.jpg" class="card-img-top caixa-card" alt="...">
+            <div class="card-body">
+              <h5 class="card-title titulo-card">Dinheiro na mão</h5>
+              <p class="card-text">Dinheiro na mão rapido e facil, conheça os melhores juros.
+              </p>
+              <a href="/dicas-cards.html" class="btn btn-tag">SAIBA MAIS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6 mb-4 col-sm-6 col-md-4 col-lg-3">
+          <div class="card barra caixa-card mb-1">
+            <img src=".//images/financas4.jpg" class="card-img-top caixa-card" alt="...">
+            <div class="card-body">
+              <h5 class="card-title titulo-card">Lucrar</h5>
+              <p class="card-text">Formas de aumentar seu lucro durante o ano.
+              </p>
+              <a href="/dicas-cards.html" class="btn btn-tag">SAIBA MAIS</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    
+      <div class="my-4 pt-3">
+        <nav class="navbar fixed-bottom navbar-light barra">
+          <div class="container-fluid px-1 py-2">
+            <a href="/pagina_inicial.html"><img src=".//images/inicio.svg" alt="" class="px-3 icon-nav"></a>
+            <a href="/transacoes.html"><img src=".//images/transacoes.svg" alt="" class="px-3 icon-nav"></a>
+            <a href="/adicionar.html"><img src=".//images/adicionar.svg" alt="" class="px-3 icon-nav icon-nav-mais"></a>
+            <a href="/planejamento.html"><img src=".//images/planejamento.svg" alt="" class="px-3 icon-nav"></a>
+            <a href="/menu.html"><img src=".//images/burguer.svg" alt="" class="px-3 icon-nav"></a>
+          </div>
+        </nav>
+      </div>
+
+
+    </div>
+
+    </div>
+
+  </div>
+</div>
+    
+  
+
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
